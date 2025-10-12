@@ -1,44 +1,47 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>V2 Obfuscation Test</title>
-<script>
-  window.addEventListener('DOMContentLoaded', () => {
-    const video = document.getElementById('myVideo');
-
-    if (!video) {
-      console.error('Video element not found');
-      return;
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>V2 Cool Engine</title>
+  <style>
+    body {
+      background-color: #0f0f0f;
+      color: #f0f0f0;
+      font-family: monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
     }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+    }
+    a {
+      color: #00ffff;
+      font-size: 1.1em;
+      text-decoration: none;
+      border: 2px solid #00ffff;
+      padding: 10px 20px;
+      border-radius: 6px;
+      transition: background 0.2s ease;
+    }
+    a:hover {
+      background-color: #00ffff;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <h1>V2 Cool Engine</h1>
+  <a href="https://va.ib.metapix.net/files/full/5736/5736664_Lexbunsfw_0712.mp4" download="0712.dll">
+    Launch sequence: 0712.dll
+  </a>
+</body>
+</html>
 
-    video.addEventListener('play', () => {
-      console.log('Video started playing');
-    });
-
-    video.addEventListener('pause', () => {
-      console.log('Video paused');
-    });
-
-    video.addEventListener('ended', () => {
-      console.log('Video ended');
-    });
-
-    video.addEventListener('error', (e) => {
-      console.error('Video error:', e);
-    });
-
-    video.addEventListener('loadeddata', () => {
-      console.log('Video data loaded');
-    });
-  });
-</script>
-
-  </head>
-  <body>
-<video controls width="600">
-  <source src="https://corsproxy.io/?https://va.ib.metapix.net/files/full/5736/5736664_Lexbunsfw_0712.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
     </video>
   </body>
